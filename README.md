@@ -1,2 +1,2 @@
-# eslint-config-ignore
-Turns off all rules that you can ignore, and let ESLint worry about it.
+# eslint-config-silent
+Turns off all rules that can be fixed automatically, just let ESLint worry about them, you don't need be bothered.
