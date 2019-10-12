@@ -2,10 +2,13 @@
 
 module.exports = {
   rules: {
+    // Possible Errors
     'no-extra-boolean-cast': 'off',
     'no-extra-parens': 'off',
     'no-extra-semi': 'off',
     'no-regex-spaces': 'off',
+
+    // Best Practices
     curly: 'off',
     'dot-location': 'off',
     'dot-notation': 'off',
@@ -15,14 +18,20 @@ module.exports = {
     'no-extra-bind': 'off',
     'no-extra-label': 'off',
     'no-floating-decimal': 'off',
-    'no-implicit-coercion': 'off',
+    // 'no-implicit-coercion': 'off',
     'no-multi-spaces': 'off',
     'no-unused-labels': 'off',
     'no-useless-return': 'off',
     'wrap-iife': 'off',
     yoda: 'off',
-    strict: 'off',
-    'no-undef-init': 'off',
+
+    // Strict Mode
+    // strict: 'off',
+
+    // Variables
+    // 'no-undef-init': 'off',
+
+    // Stylistic Issues
     'array-bracket-newline': 'off',
     'array-bracket-spacing': 'off',
     'array-element-newline': 'off',
@@ -57,9 +66,9 @@ module.exports = {
     'object-curly-newline': 'off',
     'object-curly-spacing': 'off',
     'object-property-newline': 'off',
-    'one-var': 'off',
+    // 'one-var': 'off',
     'one-var-declaration-per-line': 'off',
-    'operator-assignment': 'off',
+    // 'operator-assignment': 'off',
     'operator-linebreak': 'off',
     'padded-blocks': 'off',
     'padding-line-between-statements': 'off',
@@ -80,22 +89,24 @@ module.exports = {
     'template-tag-spacing': 'off',
     'unicode-bom': 'off',
     'wrap-regex': 'off',
+
+    // ECMAScript 6
     'arrow-body-style': 'off',
     'arrow-parens': 'off',
     'arrow-spacing': 'off',
     'generator-star-spacing': 'off',
-    'no-confusing-arrow': 'off',
+    // 'no-confusing-arrow': 'off',
     'no-useless-computed-key': 'off',
     'no-useless-rename': 'off',
-    'no-var': 'off',
-    'object-shorthand': 'off',
-    'prefer-arrow-callback': 'off',
-    'prefer-const': 'off',
-    'prefer-destructuring': 'off',
+    // 'no-var': 'off',
+    // 'object-shorthand': 'off',
+    // 'prefer-arrow-callback': 'off',
+    // 'prefer-const': 'off',
+    // 'prefer-destructuring': 'off',
     'prefer-numeric-literals': 'off',
     'prefer-template': 'off',
     'rest-spread-spacing': 'off',
-    'sort-imports': 'off',
+    // 'sort-imports': 'off',
     'template-curly-spacing': 'off',
     'yield-star-spacing': 'off'
   }
