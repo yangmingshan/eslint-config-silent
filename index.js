@@ -22,7 +22,7 @@ module.exports = {
     'no-multi-spaces': 'off',
     'no-unused-labels': 'off',
     'no-useless-return': 'off',
-    'wrap-iife': 'off',
+    // 'wrap-iife': 'off',
     yoda: 'off',
 
     // Strict Mode

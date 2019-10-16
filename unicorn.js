@@ -4,7 +4,6 @@ module.exports = {
   rules: {
     'unicorn/escape-case': 'off',
     'unicorn/import-index': 'off',
-    'unicorn/new-for-builtins': 'off',
     'unicorn/no-array-instanceof': 'off',
     'unicorn/no-console-spaces': 'off',
     'unicorn/no-hex-escape': 'off',

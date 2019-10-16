@@ -2,7 +2,6 @@
 
 module.exports = {
   rules: {
-    'react/no-unknown-property:': 'off',
     'react/self-closing-comp:': 'off',
     'react/jsx-boolean-value:': 'off',
     'react/jsx-closing-bracket-location:': 'off',
