@@ -5,5 +5,25 @@
   "main": "index.js",
   "repository": "https://github.com/yangmingshan/eslint-config-silent.git",
   "author": "Yang Mingshan <y.mingshan3@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "lint": "cross-env NODE_ENV=production eslint ."
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
+    "xo": "^0.25.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "cross-env NODE_ENV=production eslint --fix",
+      "git add"
+    ]
+  }
 }
