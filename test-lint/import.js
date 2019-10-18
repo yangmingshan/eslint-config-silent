@@ -1,0 +1,2 @@
+import '.';
+const FOO = 'BAR';

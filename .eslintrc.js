@@ -20,6 +20,7 @@ if (!isProd) {
   config.extends = [
     ...config.extends,
     '.',
+    './ava',
     './import',
     './unicorn',
     './prettier'
