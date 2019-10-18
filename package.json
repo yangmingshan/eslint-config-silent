@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-silent",
   "version": "0.1.1",
-  "description": "Turns off all rules that can be fixed automatically, just let ESLint worry about them, you don't need be bothered.",
+  "description": "Silence all rules that you don't have to care about.",
   "main": "index.js",
   "repository": "https://github.com/yangmingshan/eslint-config-silent.git",
   "author": "Yang Mingshan <y.mingshan3@gmail.com>",
@@ -10,6 +10,28 @@
     "lint": "cross-env NODE_ENV=production eslint .",
     "test": "ava"
   },
+  "files": [
+		"@typescript-eslint.js",
+		"ava.js",
+		"babel.js",
+		"flowtype.js",
+		"import.js",
+		"index.js",
+		"prettier.js",
+		"react.js",
+		"unicorn.js",
+		"vue.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "silent",
+    "silence",
+    "fix",
+    "fixable",
+    "quiet",
+    "peaceful"
+  ],
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@typescript-eslint/eslint-plugin": "^2.4.0",
@@ -28,6 +50,9 @@
     "temp-write": "^4.0.0",
     "typescript": "^3.6.4",
     "xo": "^0.25.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.5.1"
   },
   "husky": {
     "hooks": {
