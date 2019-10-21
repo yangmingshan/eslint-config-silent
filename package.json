@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-silent",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Silence all rules that you don't have to care about.",
   "main": "index.js",
   "repository": "https://github.com/yangmingshan/eslint-config-silent.git",
@@ -8,19 +8,20 @@
   "license": "MIT",
   "scripts": {
     "lint": "cross-env NODE_ENV=production eslint .",
-    "test": "ava"
+    "test": "ava",
+    "prepublish": "yarn lint && yarn test"
   },
   "files": [
-		"@typescript-eslint.js",
-		"ava.js",
-		"babel.js",
-		"flowtype.js",
-		"import.js",
-		"index.js",
-		"prettier.js",
-		"react.js",
-		"unicorn.js",
-		"vue.js"
+    "@typescript-eslint.js",
+    "ava.js",
+    "babel.js",
+    "flowtype.js",
+    "import.js",
+    "index.js",
+    "prettier.js",
+    "react.js",
+    "unicorn.js",
+    "vue.js"
   ],
   "keywords": [
     "eslint",
@@ -30,7 +31,8 @@
     "fix",
     "fixable",
     "quiet",
-    "peaceful"
+    "peaceful",
+    "ignore"
   ],
   "devDependencies": {
     "@babel/core": "^7.6.4",
@@ -56,12 +58,17 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "pre-push": "ava"
     }
   },
   "lint-staged": {
     "*.js": [
       "cross-env NODE_ENV=production eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
       "git add"
     ]
   }
