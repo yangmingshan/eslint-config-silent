@@ -4,7 +4,7 @@ ESLint is annoying sometimes, but if a rule is:
 
 - Fully automatic fixable.
 - Automatic fix is reliable.
-- Against the rule won't case runtime error.
+- Against the rule won't cause runtime error.
 
 Then why you have to care about it? Just let ESLint do the job, you don't need be bothered.
 
