@@ -28,9 +28,11 @@ module.exports = {
     'vue/dot-location': 'off',
     'vue/key-spacing': 'off',
     'vue/keyword-spacing': 'off',
+    'vue/no-deprecated-scope-attribute': 'off',
     'vue/object-curly-spacing': 'off',
     'vue/script-indent': 'off',
     'vue/space-infix-ops': 'off',
-    'vue/space-unary-ops': 'off'
+    'vue/space-unary-ops': 'off',
+    'vue/v-slot-style': 'off'
   }
 };
