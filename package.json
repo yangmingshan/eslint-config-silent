@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-silent",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Silence all rules that you don't have to care about.",
   "main": "index.js",
   "repository": "https://github.com/yangmingshan/eslint-config-silent.git",
@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "cross-env NODE_ENV=production eslint .",
     "test": "ava",
-    "prepublish": "yarn lint && yarn test"
+    "prepublishOnly": "yarn lint && yarn test"
   },
   "files": [
     "@typescript-eslint.js",
