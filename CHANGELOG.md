@@ -1,3 +1,8 @@
+### Version 0.6.0 (2019-11-29)
+
+- Added: [unicorn/prefer-negative-index].
+- Removed: [unicorn/regex-shorthand] ([#447]).
+
 ### Version 0.5.0 (2019-11-23)
 
 - Removed: [array-bracket-newline], [array-element-newline], [function-call-argument-newline], [function-paren-newline], [object-curly-newline] (in some case they cannot be fixed automatically, e.g. [#12454]).
@@ -16,6 +21,7 @@
 - Initial release.
 
 [#12454]: https://github.com/eslint/eslint/issues/12454
+[#447]: https://github.com/sindresorhus/eslint-plugin-unicorn/issues/447
 [@typescript-eslint/space-before-function-paren]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/space-before-function-paren.md
 [array-bracket-newline]: https://eslint.org/docs/rules/array-bracket-newline
 [array-element-newline]: https://eslint.org/docs/rules/array-element-newline
@@ -23,4 +29,6 @@
 [function-call-argument-newline]: https://eslint.org/docs/rules/function-call-argument-newline
 [function-paren-newline]: https://eslint.org/docs/rules/function-paren-newline
 [object-curly-newline]: https://eslint.org/docs/rules/object-curly-newline
+[unicorn/prefer-negative-index]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-negative-index.md
+[unicorn/regex-shorthand]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/regex-shorthand.md
 [wrap-iife]: https://eslint.org/docs/rules/wrap-iife
