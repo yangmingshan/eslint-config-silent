@@ -10,6 +10,7 @@ module.exports = {
     'unicorn/no-new-buffer': 'off',
     'unicorn/no-zero-fractions': 'off',
     'unicorn/number-literal-case': 'off',
+    'unicorn/prefer-negative-index': 'off',
     'unicorn/prefer-spread': 'off',
     'unicorn/prefer-type-error': 'off',
     // https://github.com/sindresorhus/eslint-plugin-unicorn/issues/447
