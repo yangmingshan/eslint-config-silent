@@ -12,7 +12,8 @@ module.exports = {
     'unicorn/number-literal-case': 'off',
     'unicorn/prefer-spread': 'off',
     'unicorn/prefer-type-error': 'off',
-    'unicorn/regex-shorthand': 'off',
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/issues/447
+    // 'unicorn/regex-shorthand': 'off',
     'unicorn/throw-new-error': 'off'
   }
 };
