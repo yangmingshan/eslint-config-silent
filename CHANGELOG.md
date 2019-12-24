@@ -1,3 +1,7 @@
+### Version 0.7.0 (2019-12-24)
+
+- Added: [@typescript-eslint/no-extra-semi].
+
 ### Version 0.6.0 (2019-11-29)
 
 - Added: [unicorn/prefer-negative-index].
@@ -22,6 +26,7 @@
 
 [#12454]: https://github.com/eslint/eslint/issues/12454
 [#447]: https://github.com/sindresorhus/eslint-plugin-unicorn/issues/447
+[@typescript-eslint/no-extra-semi]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-semi.md
 [@typescript-eslint/space-before-function-paren]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/space-before-function-paren.md
 [array-bracket-newline]: https://eslint.org/docs/rules/array-bracket-newline
 [array-element-newline]: https://eslint.org/docs/rules/array-element-newline
