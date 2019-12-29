@@ -1,3 +1,10 @@
+### Version 0.8.0 (2019-12-29)
+
+- Added: [vue/component-definition-name-casing].
+- Added: [vue/no-deprecated-slot-attribute].
+- Added: [vue/no-deprecated-slot-scope-attribute].
+- Added: [vue/static-class-names-order].
+
 ### Version 0.7.0 (2019-12-24)
 
 - Added: [@typescript-eslint/no-extra-semi].
@@ -36,4 +43,8 @@
 [object-curly-newline]: https://eslint.org/docs/rules/object-curly-newline
 [unicorn/prefer-negative-index]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-negative-index.md
 [unicorn/regex-shorthand]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/regex-shorthand.md
+[vue/component-definition-name-casing]: https://eslint.vuejs.org/rules/component-definition-name-casing.html
+[vue/no-deprecated-slot-attribute]: https://eslint.vuejs.org/rules/no-deprecated-slot-attribute.html
+[vue/no-deprecated-slot-scope-attribute]: https://eslint.vuejs.org/rules/no-deprecated-slot-scope-attribute.html
+[vue/static-class-names-order]: https://eslint.vuejs.org/rules/static-class-names-order.html
 [wrap-iife]: https://eslint.org/docs/rules/wrap-iife
