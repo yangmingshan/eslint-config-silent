@@ -24,15 +24,19 @@ module.exports = {
     'vue/block-spacing': 'off',
     'vue/brace-style': 'off',
     'vue/comma-dangle': 'off',
+    'vue/component-definition-name-casing': 'off',
     'vue/component-name-in-template-casing': 'off',
     'vue/dot-location': 'off',
     'vue/key-spacing': 'off',
     'vue/keyword-spacing': 'off',
     'vue/no-deprecated-scope-attribute': 'off',
+    'vue/no-deprecated-slot-attribute': 'off',
+    'vue/no-deprecated-slot-scope-attribute': 'off',
     'vue/object-curly-spacing': 'off',
     'vue/script-indent': 'off',
     'vue/space-infix-ops': 'off',
     'vue/space-unary-ops': 'off',
+    'vue/static-class-names-order': 'off',
     'vue/v-slot-style': 'off'
   }
 };
