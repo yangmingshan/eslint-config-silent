@@ -1,3 +1,7 @@
+### Version 0.9.0 (2020-01-28)
+
+- Added: [@typescript-eslint/comma-spacing].
+
 ### Version 0.8.0 (2019-12-29)
 
 - Added: [vue/component-definition-name-casing].
@@ -33,6 +37,7 @@
 
 [#12454]: https://github.com/eslint/eslint/issues/12454
 [#447]: https://github.com/sindresorhus/eslint-plugin-unicorn/issues/447
+[@typescript-eslint/comma-spacing]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/comma-spacing.md
 [@typescript-eslint/no-extra-semi]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-semi.md
 [@typescript-eslint/space-before-function-paren]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/space-before-function-paren.md
 [array-bracket-newline]: https://eslint.org/docs/rules/array-bracket-newline
