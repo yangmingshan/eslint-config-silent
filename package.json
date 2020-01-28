@@ -35,20 +35,19 @@
     "ignore"
   ],
   "devDependencies": {
-    "@babel/core": "^7.6.4",
     "@typescript-eslint/eslint-plugin": "^2.4.0",
     "@typescript-eslint/parser": "^2.4.0",
-    "ava": "^2.4.0",
+    "ava": "^3.1.0",
     "babel-eslint": "^10.0.3",
-    "cross-env": "^6.0.3",
+    "cross-env": "^7.0.0",
     "eslint": "^6.5.1",
     "eslint-plugin-babel": "^5.3.0",
     "eslint-plugin-flowtype": "^4.3.0",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-vue": "^6.0.1",
-    "husky": "^3.0.9",
+    "husky": "^4.2.1",
     "is-plain-obj": "^2.0.0",
-    "lint-staged": "^9.4.2",
+    "lint-staged": "^10.0.3",
     "temp-write": "^4.0.0",
     "typescript": "^3.6.4",
     "xo": "^0.25.3"
@@ -63,13 +62,7 @@
     }
   },
   "lint-staged": {
-    "*.js": [
-      "cross-env NODE_ENV=production eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.js": "cross-env NODE_ENV=production eslint --fix",
+    "*.json": "prettier --write"
   }
 }

@@ -13,8 +13,6 @@ module.exports = {
     'unicorn/prefer-negative-index': 'off',
     'unicorn/prefer-spread': 'off',
     'unicorn/prefer-type-error': 'off',
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/issues/447
-    // 'unicorn/regex-shorthand': 'off',
     'unicorn/throw-new-error': 'off'
   }
 };

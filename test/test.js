@@ -1,9 +1,11 @@
-import path from 'path';
-import { promises as fsPromises } from 'fs';
-import test from 'ava';
-import isPlainObj from 'is-plain-obj';
-import eslint from 'eslint';
-import tempWrite from 'temp-write';
+'use strict';
+
+const path = require('path');
+const { promises: fsPromises } = require('fs');
+const test = require('ava');
+const isPlainObj = require('is-plain-obj');
+const eslint = require('eslint');
+const tempWrite = require('temp-write');
 
 const parserOptions = {
   ecmaVersion: 2020,
