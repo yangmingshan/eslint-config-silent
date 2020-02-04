@@ -10,6 +10,7 @@ module.exports = {
     '@typescript-eslint/indent': 'off',
     '@typescript-eslint/member-delimiter-style': 'off',
     '@typescript-eslint/no-array-constructor': 'off',
+    '@typescript-eslint/no-extra-non-null-assertion': 'off',
     '@typescript-eslint/no-extra-parens': 'off',
     '@typescript-eslint/no-extra-semi': 'off',
     '@typescript-eslint/no-inferrable-types': 'off',
