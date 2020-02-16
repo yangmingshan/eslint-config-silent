@@ -1,3 +1,7 @@
+### Version 0.11.0 (2020-02-16)
+
+- Added: [vue/padding-line-between-blocks].
+
 ### Version 0.10.0 (2020-02-04)
 
 - Added: [@typescript-eslint/no-extra-non-null-assertion].
@@ -58,5 +62,6 @@
 [vue/component-definition-name-casing]: https://eslint.vuejs.org/rules/component-definition-name-casing.html
 [vue/no-deprecated-slot-attribute]: https://eslint.vuejs.org/rules/no-deprecated-slot-attribute.html
 [vue/no-deprecated-slot-scope-attribute]: https://eslint.vuejs.org/rules/no-deprecated-slot-scope-attribute.html
+[vue/padding-line-between-blocks]: https://eslint.vuejs.org/rules/padding-line-between-blocks.html
 [vue/static-class-names-order]: https://eslint.vuejs.org/rules/static-class-names-order.html
 [wrap-iife]: https://eslint.org/docs/rules/wrap-iife
