@@ -33,6 +33,7 @@ module.exports = {
     'vue/no-deprecated-slot-attribute': 'off',
     'vue/no-deprecated-slot-scope-attribute': 'off',
     'vue/object-curly-spacing': 'off',
+    'vue/padding-line-between-blocks': 'off',
     'vue/script-indent': 'off',
     'vue/space-infix-ops': 'off',
     'vue/space-unary-ops': 'off',
