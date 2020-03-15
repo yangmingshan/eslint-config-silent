@@ -14,13 +14,13 @@ const parserOptions = {
 
 const hasRule = (errors, ruleId) => errors.some(x => x.ruleId === ruleId);
 
-function runEslint(str, conf) {
+function runEslint(string, conf) {
   const linter = new eslint.CLIEngine({
     useEslintrc: false,
     configFile: tempWrite.sync(JSON.stringify(conf))
   });
 
-  return linter.executeOnText(str).results[0].messages;
+  return linter.executeOnText(string).results[0].messages;
 }
 
 test('main', async t => {
