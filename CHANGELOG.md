@@ -1,3 +1,7 @@
+### Version 0.12.0 (2020-04-19)
+
+- Added: [@typescript-eslint/prefer-reduce-type-parameter].
+
 ### Version 0.11.0 (2020-02-16)
 
 - Added: [vue/padding-line-between-blocks].
@@ -50,6 +54,7 @@
 [@typescript-eslint/no-extra-non-null-assertion]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-non-null-assertion.md
 [@typescript-eslint/no-extra-semi]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-semi.md
 [@typescript-eslint/no-unnecessary-boolean-literal-compare]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-boolean-literal-compare.md
+[@typescript-eslint/prefer-reduce-type-parameter]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md
 [@typescript-eslint/space-before-function-paren]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/space-before-function-paren.md
 [array-bracket-newline]: https://eslint.org/docs/rules/array-bracket-newline
 [array-element-newline]: https://eslint.org/docs/rules/array-element-newline
