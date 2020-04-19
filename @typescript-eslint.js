@@ -21,6 +21,7 @@ module.exports = {
     '@typescript-eslint/prefer-function-type': 'off',
     '@typescript-eslint/prefer-namespace-keyword': 'off',
     '@typescript-eslint/prefer-readonly': 'off',
+    '@typescript-eslint/prefer-reduce-type-parameter': 'off',
     '@typescript-eslint/quotes': 'off',
     '@typescript-eslint/semi': 'off',
     '@typescript-eslint/space-before-function-paren': 'off',
