@@ -13,6 +13,6 @@ module.exports = {
     'unicorn/prefer-negative-index': 'off',
     'unicorn/prefer-spread': 'off',
     'unicorn/prefer-type-error': 'off',
-    'unicorn/throw-new-error': 'off'
-  }
+    'unicorn/throw-new-error': 'off',
+  },
 };

@@ -79,6 +79,6 @@ module.exports = {
     'prefer-template': 'off',
     'rest-spread-spacing': 'off',
     'template-curly-spacing': 'off',
-    'yield-star-spacing': 'off'
-  }
+    'yield-star-spacing': 'off',
+  },
 };

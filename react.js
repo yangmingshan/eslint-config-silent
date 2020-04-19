@@ -17,6 +17,6 @@ module.exports = {
     'react/jsx-sort-props': 'off',
     'react/jsx-space-before-closing': 'off',
     'react/jsx-tag-spacing': 'off',
-    'react/jsx-wrap-multilines': 'off'
-  }
+    'react/jsx-wrap-multilines': 'off',
+  },
 };

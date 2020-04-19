@@ -38,6 +38,6 @@ module.exports = {
     'vue/space-infix-ops': 'off',
     'vue/space-unary-ops': 'off',
     'vue/static-class-names-order': 'off',
-    'vue/v-slot-style': 'off'
-  }
+    'vue/v-slot-style': 'off',
+  },
 };

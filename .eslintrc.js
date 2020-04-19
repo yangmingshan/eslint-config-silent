@@ -12,8 +12,8 @@ const config = {
   ],
   rules: {
     'no-console': isProd ? 2 : 0,
-    'no-debugger': isProd ? 2 : 0
-  }
+    'no-debugger': isProd ? 2 : 0,
+  },
 };
 
 if (!isProd) {
@@ -23,7 +23,7 @@ if (!isProd) {
     './ava',
     './import',
     './unicorn',
-    './prettier'
+    './prettier',
   ];
 }
 

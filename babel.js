@@ -3,6 +3,6 @@
 module.exports = {
   rules: {
     'babel/object-curly-spacing': 'off',
-    'babel/semi': 'off'
-  }
+    'babel/semi': 'off',
+  },
 };
