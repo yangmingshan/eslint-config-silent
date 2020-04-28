@@ -1,3 +1,7 @@
+### Version 0.14.0 (2020-04-28)
+
+- Added: [@typescript-eslint/dot-notation].
+
 ### Version 0.13.0 (2020-04-23)
 
 - Added: [@typescript-eslint/keyword-spacing].
@@ -55,6 +59,7 @@
 [#12454]: https://github.com/eslint/eslint/issues/12454
 [#447]: https://github.com/sindresorhus/eslint-plugin-unicorn/issues/447
 [@typescript-eslint/comma-spacing]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/comma-spacing.md
+[@typescript-eslint/dot-notation]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/dot-notation.md
 [@typescript-eslint/keyword-spacing]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/keyword-spacing.md
 [@typescript-eslint/no-extra-non-null-assertion]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-non-null-assertion.md
 [@typescript-eslint/no-extra-semi]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-semi.md
