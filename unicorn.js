@@ -8,6 +8,7 @@ module.exports = {
     'unicorn/no-console-spaces': 'off',
     'unicorn/no-hex-escape': 'off',
     'unicorn/no-new-buffer': 'off',
+    'unicorn/no-useless-undefined': 'off',
     'unicorn/no-zero-fractions': 'off',
     'unicorn/number-literal-case': 'off',
     'unicorn/prefer-negative-index': 'off',
