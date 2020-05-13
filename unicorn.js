@@ -11,6 +11,7 @@ module.exports = {
     'unicorn/no-zero-fractions': 'off',
     'unicorn/number-literal-case': 'off',
     'unicorn/prefer-negative-index': 'off',
+    'unicorn/prefer-optional-catch-binding': 'off',
     'unicorn/prefer-spread': 'off',
     'unicorn/prefer-type-error': 'off',
     'unicorn/throw-new-error': 'off',
