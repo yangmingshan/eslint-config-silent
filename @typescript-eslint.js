@@ -3,6 +3,7 @@
 module.exports = {
   rules: {
     '@typescript-eslint/array-type': 'off',
+    '@typescript-eslint/ban-tslint-comment': 'off',
     '@typescript-eslint/brace-style': 'off',
     '@typescript-eslint/comma-spacing': 'off',
     '@typescript-eslint/dot-notation': 'off',
