@@ -1,3 +1,10 @@
+### Version 0.14.0 (2020-07-18)
+
+- Added: [@typescript-eslint/ban-tslint-comment].
+- Added: [@typescript-eslint/lines-between-class-members].
+- Added: [unicorn/no-useless-undefined].
+- Added: [unicorn/prefer-optional-catch-binding].
+
 ### Version 0.14.0 (2020-04-28)
 
 - Added: [@typescript-eslint/dot-notation].
@@ -58,9 +65,11 @@
 
 [#12454]: https://github.com/eslint/eslint/issues/12454
 [#447]: https://github.com/sindresorhus/eslint-plugin-unicorn/issues/447
+[@typescript-eslint/ban-tslint-comment]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-tslint-comment.md
 [@typescript-eslint/comma-spacing]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/comma-spacing.md
 [@typescript-eslint/dot-notation]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/dot-notation.md
 [@typescript-eslint/keyword-spacing]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/keyword-spacing.md
+[@typescript-eslint/lines-between-class-members]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/lines-between-class-members.md
 [@typescript-eslint/no-extra-non-null-assertion]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-non-null-assertion.md
 [@typescript-eslint/no-extra-semi]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-semi.md
 [@typescript-eslint/no-unnecessary-boolean-literal-compare]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-boolean-literal-compare.md
@@ -72,7 +81,9 @@
 [function-call-argument-newline]: https://eslint.org/docs/rules/function-call-argument-newline
 [function-paren-newline]: https://eslint.org/docs/rules/function-paren-newline
 [object-curly-newline]: https://eslint.org/docs/rules/object-curly-newline
+[unicorn/no-useless-undefined]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-useless-undefined.md
 [unicorn/prefer-negative-index]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-negative-index.md
+[unicorn/prefer-optional-catch-binding]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-optional-catch-binding.md
 [unicorn/regex-shorthand]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/regex-shorthand.md
 [vue/component-definition-name-casing]: https://eslint.vuejs.org/rules/component-definition-name-casing.html
 [vue/no-deprecated-slot-attribute]: https://eslint.vuejs.org/rules/no-deprecated-slot-attribute.html
