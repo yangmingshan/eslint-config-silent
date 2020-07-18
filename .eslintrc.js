@@ -4,6 +4,7 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const config = {
   root: true,
+  ignorePatterns: ['test-lint'],
   extends: [
     'xo/esnext',
     require.resolve('xo/config/plugins'),
@@ -11,8 +12,7 @@ const config = {
     'prettier/unicorn',
   ],
   rules: {
-    'no-console': isProd ? 2 : 0,
-    'no-debugger': isProd ? 2 : 0,
+    'no-console': 'error',
   },
 };
 
