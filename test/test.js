@@ -5,7 +5,6 @@ const { promises: fsPromises } = require('fs');
 const test = require('ava');
 const isPlainObj = require('is-plain-obj');
 const eslint = require('eslint');
-const tempWrite = require('temp-write');
 
 const parserOptions = {
   ecmaVersion: 2020,
@@ -14,13 +13,14 @@ const parserOptions = {
 
 const hasRule = (errors, ruleId) => errors.some((x) => x.ruleId === ruleId);
 
-function runEslint(string, conf) {
-  const linter = new eslint.CLIEngine({
+async function runEslint(string, conf) {
+  const linter = new eslint.ESLint({
     useEslintrc: false,
-    configFile: tempWrite.sync(JSON.stringify(conf)),
+    baseConfig: conf,
   });
 
-  return linter.executeOnText(string).results[0].messages;
+  const [{ messages }] = await linter.lintText(string);
+  return messages;
 }
 
 test('main', async (t) => {
@@ -40,10 +40,10 @@ test('main', async (t) => {
     extends: ['eslint:recommended'],
   };
 
-  t.true(hasRule(runEslint(code, config), rule));
+  t.true(hasRule(await runEslint(code, config), rule));
 
   config.extends.push(path.resolve(__dirname, '../index.js'));
-  t.false(hasRule(runEslint(code, config), rule));
+  t.false(hasRule(await runEslint(code, config), rule));
 });
 
 test('@typescript-eslint', async (t) => {
@@ -53,7 +53,7 @@ test('@typescript-eslint', async (t) => {
   t.true(isPlainObj(conf.rules));
   t.true(Object.keys(conf.rules).every((name) => conf.rules[name] === 'off'));
 
-  const rule = '@typescript-eslint/member-delimiter-style';
+  const rule = '@typescript-eslint/no-extra-non-null-assertion';
   const code = await fsPromises.readFile(
     path.resolve(__dirname, '../test-lint/@typescript-eslint.ts'),
     { encoding: 'utf8' }
@@ -64,10 +64,10 @@ test('@typescript-eslint', async (t) => {
     extends: ['plugin:@typescript-eslint/recommended'],
   };
 
-  t.true(hasRule(runEslint(code, config), rule));
+  t.true(hasRule(await runEslint(code, config), rule));
 
   config.extends.push(path.resolve(__dirname, '../@typescript-eslint.js'));
-  t.false(hasRule(runEslint(code, config), rule));
+  t.false(hasRule(await runEslint(code, config), rule));
 });
 
 test('ava', async (t) => {
@@ -87,10 +87,10 @@ test('ava', async (t) => {
     extends: ['plugin:ava/recommended'],
   };
 
-  t.true(hasRule(runEslint(code, config), rule));
+  t.true(hasRule(await runEslint(code, config), rule));
 
   config.extends.push(path.resolve(__dirname, '../ava.js'));
-  t.false(hasRule(runEslint(code, config), rule));
+  t.false(hasRule(await runEslint(code, config), rule));
 });
 
 test('babel', async (t) => {
@@ -114,13 +114,13 @@ test('babel', async (t) => {
     },
   };
 
-  t.true(hasRule(runEslint(code, config), rule));
+  t.true(hasRule(await runEslint(code, config), rule));
 
   config.rules = {
     ...config.rules,
     ...conf.rules,
   };
-  t.false(hasRule(runEslint(code, config), rule));
+  t.false(hasRule(await runEslint(code, config), rule));
 });
 
 test('flowtype', async (t) => {
@@ -141,10 +141,10 @@ test('flowtype', async (t) => {
     extends: ['plugin:flowtype/recommended'],
   };
 
-  t.true(hasRule(runEslint(code, config), rule));
+  t.true(hasRule(await runEslint(code, config), rule));
 
   config.extends.push(path.resolve(__dirname, '../flowtype.js'));
-  t.false(hasRule(runEslint(code, config), rule));
+  t.false(hasRule(await runEslint(code, config), rule));
 });
 
 test('import', async (t) => {
@@ -167,13 +167,13 @@ test('import', async (t) => {
     },
   };
 
-  t.true(hasRule(runEslint(code, config), rule));
+  t.true(hasRule(await runEslint(code, config), rule));
 
   config.rules = {
     ...config.rules,
     ...conf.rules,
   };
-  t.false(hasRule(runEslint(code, config), rule));
+  t.false(hasRule(await runEslint(code, config), rule));
 });
 
 test('prettier', async (t) => {
@@ -193,10 +193,10 @@ test('prettier', async (t) => {
     extends: ['plugin:prettier/recommended'],
   };
 
-  t.true(hasRule(runEslint(code, config), rule));
+  t.true(hasRule(await runEslint(code, config), rule));
 
   config.extends.push(path.resolve(__dirname, '../prettier.js'));
-  t.false(hasRule(runEslint(code, config), rule));
+  t.false(hasRule(await runEslint(code, config), rule));
 });
 
 test('react', async (t) => {
@@ -224,13 +224,13 @@ test('react', async (t) => {
     },
   };
 
-  t.true(hasRule(runEslint(code, config), rule));
+  t.true(hasRule(await runEslint(code, config), rule));
 
   config.rules = {
     ...config.rules,
     ...conf.rules,
   };
-  t.false(hasRule(runEslint(code, config), rule));
+  t.false(hasRule(await runEslint(code, config), rule));
 });
 
 test('unicorn', async (t) => {
@@ -250,10 +250,10 @@ test('unicorn', async (t) => {
     extends: ['plugin:unicorn/recommended'],
   };
 
-  t.true(hasRule(runEslint(code, config), rule));
+  t.true(hasRule(await runEslint(code, config), rule));
 
   config.extends.push(path.resolve(__dirname, '../unicorn.js'));
-  t.false(hasRule(runEslint(code, config), rule));
+  t.false(hasRule(await runEslint(code, config), rule));
 });
 
 test('vue', async (t) => {
@@ -272,8 +272,8 @@ test('vue', async (t) => {
     extends: ['plugin:vue/recommended'],
   };
 
-  t.true(hasRule(runEslint(code, config), rule));
+  t.true(hasRule(await runEslint(code, config), rule));
 
   config.extends.push(path.resolve(__dirname, '../vue.js'));
-  t.false(hasRule(runEslint(code, config), rule));
+  t.false(hasRule(await runEslint(code, config), rule));
 });

@@ -1,4 +1,2 @@
-interface Foo {
-  name: string,
-  greet(): void,
-}
+const foo: { bar: number } | null = null;
+const bar = foo!!!.bar;

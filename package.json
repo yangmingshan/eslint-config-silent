@@ -48,7 +48,6 @@
     "husky": "^4.2.1",
     "is-plain-obj": "^2.0.0",
     "lint-staged": "^10.0.3",
-    "temp-write": "^4.0.0",
     "typescript": "^3.6.4",
     "xo": "^0.32.1"
   },
