@@ -1,4 +1,8 @@
-### Version 0.14.0 (2020-07-18)
+### Version 0.16.0 (2020-09-29)
+
+- Added: [@typescript-eslint/comma-dangle].
+
+### Version 0.15.0 (2020-07-18)
 
 - Added: [@typescript-eslint/ban-tslint-comment].
 - Added: [@typescript-eslint/lines-between-class-members].
@@ -66,6 +70,7 @@
 [#12454]: https://github.com/eslint/eslint/issues/12454
 [#447]: https://github.com/sindresorhus/eslint-plugin-unicorn/issues/447
 [@typescript-eslint/ban-tslint-comment]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-tslint-comment.md
+[@typescript-eslint/comma-dangle]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/comma-dangle.md
 [@typescript-eslint/comma-spacing]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/comma-spacing.md
 [@typescript-eslint/dot-notation]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/dot-notation.md
 [@typescript-eslint/keyword-spacing]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/keyword-spacing.md
