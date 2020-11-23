@@ -9,7 +9,6 @@ module.exports = {
     '@typescript-eslint/comma-spacing': 'off',
     '@typescript-eslint/consistent-indexed-object-style': 'off',
     '@typescript-eslint/dot-notation': 'off',
-    '@typescript-eslint/consistent-type-definitions': 'off',
     '@typescript-eslint/func-call-spacing': 'off',
     '@typescript-eslint/indent': 'off',
     '@typescript-eslint/keyword-spacing': 'off',
