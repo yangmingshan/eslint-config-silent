@@ -32,6 +32,7 @@ module.exports = {
     '@typescript-eslint/quotes': 'off',
     '@typescript-eslint/semi': 'off',
     '@typescript-eslint/space-before-function-paren': 'off',
+    '@typescript-eslint/space-infix-ops': 'off',
     '@typescript-eslint/type-annotation-spacing': 'off',
   },
 };
