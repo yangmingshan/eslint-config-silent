@@ -1,3 +1,7 @@
+### Version 0.19.1 (2020-12-18)
+
+- Removed: [@typescript-eslint/non-nullable-type-assertion-style] ([#2887]).
+
 ### Version 0.19.0 (2020-12-17)
 
 - Added: [@typescript-eslint/non-nullable-type-assertion-style].
@@ -86,6 +90,7 @@
 
 [#12454]: https://github.com/eslint/eslint/issues/12454
 [#2739]: https://github.com/typescript-eslint/typescript-eslint/pull/2739
+[#2887]: https://github.com/typescript-eslint/typescript-eslint/issues/2887
 [#447]: https://github.com/sindresorhus/eslint-plugin-unicorn/issues/447
 [@typescript-eslint/ban-tslint-comment]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-tslint-comment.md
 [@typescript-eslint/comma-dangle]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/comma-dangle.md
