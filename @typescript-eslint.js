@@ -24,7 +24,6 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-type-arguments': 'off',
     '@typescript-eslint/no-unnecessary-type-assertion': 'off',
     '@typescript-eslint/no-unnecessary-type-constraint': 'off',
-    '@typescript-eslint/non-nullable-type-assertion-style': 'off',
     '@typescript-eslint/prefer-function-type': 'off',
     '@typescript-eslint/prefer-namespace-keyword': 'off',
     '@typescript-eslint/prefer-readonly': 'off',
