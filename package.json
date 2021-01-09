@@ -47,14 +47,10 @@
     "is-plain-obj": "^3.0.0",
     "lint-staged": "^10.0.3",
     "typescript": "^4.0.3",
-    "xo": "^0.36.1"
+    "xo": "^0.37.1"
   },
   "peerDependencies": {
     "eslint": ">=6.5.1"
-  },
-  "resolutions": {
-    "eslint-config-xo-typescript": "^0.37.0",
-    "eslint-plugin-unicorn": "^24.0.0"
   },
   "husky": {
     "hooks": {
