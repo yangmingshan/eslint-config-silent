@@ -1,3 +1,8 @@
+### Version 0.20.0 (2021-01-09)
+
+- Added: [@typescript-eslint/promise-function-async].
+- Added: [@typescript-eslint/sort-type-union-intersection-members].
+
 ### Version 0.19.1 (2020-12-18)
 
 - Removed: [@typescript-eslint/non-nullable-type-assertion-style] ([#2887]).
@@ -106,6 +111,8 @@
 [@typescript-eslint/no-unnecessary-type-constraint]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-type-constraint.md
 [@typescript-eslint/non-nullable-type-assertion-style]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/non-nullable-type-assertion-style.md
 [@typescript-eslint/prefer-reduce-type-parameter]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md
+[@typescript-eslint/promise-function-async]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/promise-function-async.md
+[@typescript-eslint/sort-type-union-intersection-members]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/sort-type-union-intersection-members.md
 [@typescript-eslint/space-before-function-paren]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/space-before-function-paren.md
 [@typescript-eslint/space-infix-ops]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/space-infix-ops.md
 [array-bracket-newline]: https://eslint.org/docs/rules/array-bracket-newline
