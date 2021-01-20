@@ -16,6 +16,7 @@ module.exports = {
     'unicorn/prefer-date-now': 'off',
     'unicorn/prefer-negative-index': 'off',
     'unicorn/prefer-optional-catch-binding': 'off',
+    'unicorn/prefer-regexp-test': 'off',
     'unicorn/prefer-spread': 'off',
     'unicorn/prefer-type-error': 'off',
     'unicorn/throw-new-error': 'off',
