@@ -1,3 +1,8 @@
+### Version 0.21.0 (2021-01-20)
+
+- Added: [unicorn/prefer-regexp-test].
+- Added: [@typescript-eslint/object-curly-spacing].
+
 ### Version 0.20.0 (2021-01-09)
 
 - Added: [@typescript-eslint/promise-function-async].
@@ -110,6 +115,7 @@
 [@typescript-eslint/no-unnecessary-boolean-literal-compare]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-boolean-literal-compare.md
 [@typescript-eslint/no-unnecessary-type-constraint]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-type-constraint.md
 [@typescript-eslint/non-nullable-type-assertion-style]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/non-nullable-type-assertion-style.md
+[@typescript-eslint/object-curly-spacing]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/object-curly-spacing.md
 [@typescript-eslint/prefer-reduce-type-parameter]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md
 [@typescript-eslint/promise-function-async]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/promise-function-async.md
 [@typescript-eslint/sort-type-union-intersection-members]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/sort-type-union-intersection-members.md
@@ -127,6 +133,7 @@
 [unicorn/prefer-date-now]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-date-now.md
 [unicorn/prefer-negative-index]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-negative-index.md
 [unicorn/prefer-optional-catch-binding]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-optional-catch-binding.md
+[unicorn/prefer-regexp-test]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-regexp-test.md
 [unicorn/regex-shorthand]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/regex-shorthand.md
 [vue/component-definition-name-casing]: https://eslint.vuejs.org/rules/component-definition-name-casing.html
 [vue/no-deprecated-slot-attribute]: https://eslint.vuejs.org/rules/no-deprecated-slot-attribute.html

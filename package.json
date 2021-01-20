@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-silent",
-  "version": "0.20.0",
+  "version": "0.21.0",
   "description": "Silence all rules that you don't have to care about.",
   "main": "index.js",
   "repository": "https://github.com/yangmingshan/eslint-config-silent.git",
