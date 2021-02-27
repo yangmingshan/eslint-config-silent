@@ -93,22 +93,22 @@ test('ava', async (t) => {
   t.false(hasRule(await runEslint(code, config), rule));
 });
 
-test('babel', async (t) => {
-  const conf = require('../babel');
+test('@babel', async (t) => {
+  const conf = require('../@babel');
 
   t.true(isPlainObj(conf));
   t.true(isPlainObj(conf.rules));
   t.true(Object.keys(conf.rules).every((name) => conf.rules[name] === 'off'));
 
-  const rule = 'babel/semi';
+  const rule = '@babel/semi';
   const code = await fsPromises.readFile(
-    path.resolve(__dirname, '../test-lint/babel.js'),
+    path.resolve(__dirname, '../test-lint/@babel.js'),
     { encoding: 'utf8' }
   );
   const config = {
-    parser: require.resolve('babel-eslint'),
+    parser: require.resolve('@babel/eslint-parser'),
     parserOptions,
-    plugins: ['babel'],
+    plugins: ['@babel'],
     rules: {
       [rule]: 'error',
     },
@@ -136,7 +136,7 @@ test('flowtype', async (t) => {
     { encoding: 'utf8' }
   );
   const config = {
-    parser: require.resolve('babel-eslint'),
+    parser: require.resolve('@babel/eslint-parser'),
     parserOptions,
     extends: ['plugin:flowtype/recommended'],
   };

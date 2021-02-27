@@ -11,6 +11,7 @@ Then why you have to care about it? Just let ESLint do the job, you don't need b
 ## Installation
 
 You can install it via [yarn](https://yarnpkg.com) or [npm](https://npmjs.com).
+
 ```
 $ yarn add eslint-config-silent --dev
 $ npm install eslint-config-silent --save-dev
@@ -27,14 +28,11 @@ This config only turns rules off, but you don't want to keep them off all the ti
 
 const config = {
   root: true,
-  extends: 'some-other-config-you-use'
+  extends: 'some-other-config-you-use',
 };
 
 if (process.env.NODE_ENV !== 'production') {
-  config.extends = [
-    config.extends,
-    'silent'
-  ];
+  config.extends = [config.extends, 'silent'];
 }
 
 module.exports = config;
@@ -47,10 +45,7 @@ And you need a chance to let ESLint fix them, [lint-staged](https://github.com/o
 ```json
 {
   "lint-staged": {
-    "*.js": [
-      "cross-env NODE_ENV=production eslint --fix",
-      "git add"
-    ]
+    "*.js": ["cross-env NODE_ENV=production eslint --fix", "git add"]
   }
 }
 ```
@@ -59,9 +54,9 @@ And that's it, enjoy your silent ESLint ([cross-env](https://github.com/kentcdod
 
 A few ESLint plugins are supported as well:
 
+- [@babel/eslint-plugin](https://github.com/babel/babel/tree/main/eslint/babel-eslint-plugin)
 - [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint)
 - [eslint-plugin-ava](https://github.com/avajs/eslint-plugin-ava)
-- [eslint-plugin-babel](https://github.com/babel/eslint-plugin-babel)
 - [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype)
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 - [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
@@ -78,22 +73,22 @@ Add extra exclusions for the plugins you use like so:
 
 const config = {
   root: true,
-  extends: 'some-other-config-you-use'
+  extends: 'some-other-config-you-use',
 };
 
 if (process.env.NODE_ENV !== 'production') {
   config.extends = [
     config.extends,
     'silent',
+    'silent/@babel',
     'silent/@typescript-eslint',
     'silent/ava',
-    'silent/babel',
     'silent/flowtype',
     'silent/import',
     'silent/prettier',
     'silent/react',
     'silent/unicorn',
-    'silent/vue'
+    'silent/vue',
   ];
 }
 
@@ -109,15 +104,11 @@ If you extend a config which uses a plugin, it is recommended to add `'silent/th
 
 const config = {
   root: true,
-  extends: 'airbnb'
+  extends: 'airbnb',
 };
 
 if (process.env.NODE_ENV !== 'production') {
-  config.extends = [
-    config.extends,
-    'silent',
-    'silent/react'
-  ];
+  config.extends = [config.extends, 'silent', 'silent/react'];
 }
 
 module.exports = config;
@@ -144,15 +135,12 @@ const config = {
   root: true,
   extends: 'some-other-config-you-use',
   rules: {
-    'your-custom-rule': 'error'
-  }
+    'your-custom-rule': 'error',
+  },
 };
 
 if (process.env.NODE_ENV !== 'production') {
-  config.rules = [
-    ...config.rules,
-    ...silent.rules
-  ];
+  config.rules = [...config.rules, ...silent.rules];
 }
 
 module.exports = config;
