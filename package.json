@@ -43,20 +43,14 @@
     "eslint-plugin-flowtype": "^5.2.0",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-vue": "^6.0.1",
-    "husky": "^4.2.1",
+    "husky": "^5.1.1",
     "is-plain-obj": "^3.0.0",
     "lint-staged": "^10.0.3",
     "typescript": "^4.0.3",
-    "xo": "^0.37.1"
+    "xo": "^0.38.1"
   },
   "peerDependencies": {
     "eslint": ">=6.5.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "ava"
-    }
   },
   "lint-staged": {
     "*.js": "cross-env NODE_ENV=production eslint --fix",
