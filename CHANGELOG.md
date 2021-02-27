@@ -1,3 +1,9 @@
+### Version 0.22.0 (2021-02-27)
+
+- Removed: [unicorn/prefer-spread].
+- Added: [flowtype/object-type-curly-spacing].
+- Breaking: switch from [eslint-plugin-babel] to [@babel/eslint-plugin]
+
 ### Version 0.21.0 (2021-01-20)
 
 - Added: [unicorn/prefer-regexp-test].
@@ -102,6 +108,7 @@
 [#2739]: https://github.com/typescript-eslint/typescript-eslint/pull/2739
 [#2887]: https://github.com/typescript-eslint/typescript-eslint/issues/2887
 [#447]: https://github.com/sindresorhus/eslint-plugin-unicorn/issues/447
+[@babel/eslint-plugin]: https://github.com/babel/babel/tree/main/eslint/babel-eslint-plugin
 [@typescript-eslint/ban-tslint-comment]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-tslint-comment.md
 [@typescript-eslint/comma-dangle]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/comma-dangle.md
 [@typescript-eslint/comma-spacing]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/comma-spacing.md
@@ -123,7 +130,9 @@
 [@typescript-eslint/space-infix-ops]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/space-infix-ops.md
 [array-bracket-newline]: https://eslint.org/docs/rules/array-bracket-newline
 [array-element-newline]: https://eslint.org/docs/rules/array-element-newline
+[eslint-plugin-babel]: https://github.com/babel/eslint-plugin-babel
 [eslint-plugin-vue v6.0]: https://github.com/vuejs/eslint-plugin-vue/releases/tag/v6.0.0
+[flowtype/object-type-curly-spacing]: https://github.com/gajus/eslint-plugin-flowtype#object-type-curly-spacing
 [function-call-argument-newline]: https://eslint.org/docs/rules/function-call-argument-newline
 [function-paren-newline]: https://eslint.org/docs/rules/function-paren-newline
 [object-curly-newline]: https://eslint.org/docs/rules/object-curly-newline
@@ -134,6 +143,7 @@
 [unicorn/prefer-negative-index]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-negative-index.md
 [unicorn/prefer-optional-catch-binding]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-optional-catch-binding.md
 [unicorn/prefer-regexp-test]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-regexp-test.md
+[unicorn/prefer-spread]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md
 [unicorn/regex-shorthand]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/regex-shorthand.md
 [vue/component-definition-name-casing]: https://eslint.vuejs.org/rules/component-definition-name-casing.html
 [vue/no-deprecated-slot-attribute]: https://eslint.vuejs.org/rules/no-deprecated-slot-attribute.html
