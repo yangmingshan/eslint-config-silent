@@ -8,6 +8,7 @@ module.exports = {
     'flowtype/boolean-style': 'off',
     'flowtype/delimiter-dangle': 'off',
     'flowtype/generic-spacing': 'off',
+    'flowtype/object-type-curly-spacing': 'off',
     'flowtype/object-type-delimiter': 'off',
     'flowtype/require-indexer-name': 'off',
     'flowtype/semi': 'off',
