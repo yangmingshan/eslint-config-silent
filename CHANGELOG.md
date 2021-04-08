@@ -1,3 +1,8 @@
+### Version 0.23.0 (2021-04-08)
+
+- Removed: [ava/no-only-test].
+- Removed: [ava/no-skip-test].
+
 ### Version 0.22.0 (2021-02-27)
 
 - Removed: [unicorn/prefer-spread].
@@ -130,6 +135,8 @@
 [@typescript-eslint/space-infix-ops]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/space-infix-ops.md
 [array-bracket-newline]: https://eslint.org/docs/rules/array-bracket-newline
 [array-element-newline]: https://eslint.org/docs/rules/array-element-newline
+[ava/no-only-test]: https://github.com/avajs/eslint-plugin-ava/blob/main/docs/rules/no-only-test.md
+[ava/no-skip-test]: https://github.com/avajs/eslint-plugin-ava/blob/main/docs/rules/no-skip-test.md
 [eslint-plugin-babel]: https://github.com/babel/eslint-plugin-babel
 [eslint-plugin-vue v6.0]: https://github.com/vuejs/eslint-plugin-vue/releases/tag/v6.0.0
 [flowtype/object-type-curly-spacing]: https://github.com/gajus/eslint-plugin-flowtype#object-type-curly-spacing
