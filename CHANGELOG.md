@@ -1,3 +1,8 @@
+### Version 0.24.0 (2021-04-14)
+
+- Added: [flowtype/quotes].
+- Added: [@typescript-eslint/prefer-regexp-exec].
+
 ### Version 0.23.0 (2021-04-08)
 
 - Removed: [ava/no-only-test].
@@ -129,6 +134,7 @@
 [@typescript-eslint/non-nullable-type-assertion-style]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/non-nullable-type-assertion-style.md
 [@typescript-eslint/object-curly-spacing]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/object-curly-spacing.md
 [@typescript-eslint/prefer-reduce-type-parameter]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md
+[@typescript-eslint/prefer-regexp-exec]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-regexp-exec.md
 [@typescript-eslint/promise-function-async]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/promise-function-async.md
 [@typescript-eslint/sort-type-union-intersection-members]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/sort-type-union-intersection-members.md
 [@typescript-eslint/space-before-function-paren]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/space-before-function-paren.md
@@ -140,6 +146,7 @@
 [eslint-plugin-babel]: https://github.com/babel/eslint-plugin-babel
 [eslint-plugin-vue v6.0]: https://github.com/vuejs/eslint-plugin-vue/releases/tag/v6.0.0
 [flowtype/object-type-curly-spacing]: https://github.com/gajus/eslint-plugin-flowtype#object-type-curly-spacing
+[flowtype/quotes]: https://github.com/gajus/eslint-plugin-flowtype#quotes
 [function-call-argument-newline]: https://eslint.org/docs/rules/function-call-argument-newline
 [function-paren-newline]: https://eslint.org/docs/rules/function-paren-newline
 [object-curly-newline]: https://eslint.org/docs/rules/object-curly-newline
