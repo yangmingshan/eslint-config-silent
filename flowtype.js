@@ -10,6 +10,7 @@ module.exports = {
     'flowtype/generic-spacing': 'off',
     'flowtype/object-type-curly-spacing': 'off',
     'flowtype/object-type-delimiter': 'off',
+    'flowtype/quotes': 'off',
     'flowtype/require-indexer-name': 'off',
     'flowtype/semi': 'off',
     'flowtype/sort-keys': 'off',
