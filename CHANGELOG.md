@@ -1,3 +1,8 @@
+### Version 0.25.0 (2021-04-20)
+
+- Added: [react/jsx-newline].
+- Removed: [unicorn/prefer-regexp-test].
+
 ### Version 0.24.0 (2021-04-14)
 
 - Added: [flowtype/quotes].
@@ -150,6 +155,7 @@
 [function-call-argument-newline]: https://eslint.org/docs/rules/function-call-argument-newline
 [function-paren-newline]: https://eslint.org/docs/rules/function-paren-newline
 [object-curly-newline]: https://eslint.org/docs/rules/object-curly-newline
+[react/jsx-newline]: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-newline.md
 [unicorn/empty-brace-spaces]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/empty-brace-spaces.md
 [unicorn/no-lonely-if]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-lonely-if.md
 [unicorn/no-useless-undefined]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-undefined.md
