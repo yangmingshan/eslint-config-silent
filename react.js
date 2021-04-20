@@ -13,6 +13,7 @@ module.exports = {
     'react/jsx-indent': 'off',
     'react/jsx-indent-props': 'off',
     'react/jsx-max-props-per-line': 'off',
+    'react/jsx-newline': 'off',
     'react/jsx-props-no-multi-spaces': 'off',
     'react/jsx-sort-props': 'off',
     'react/jsx-space-before-closing': 'off',
