@@ -6,13 +6,15 @@ const config = {
   root: true,
   ignorePatterns: ['test-lint'],
   extends: [
-    'xo/esnext',
+    'xo',
     require.resolve('xo/config/plugins'),
     'plugin:prettier/recommended',
-    'prettier/unicorn',
+    'prettier',
   ],
   rules: {
     'no-console': 'error',
+    'import/extensions': 'off',
+    'unicorn/prefer-module': 'off',
   },
 };
 

@@ -3,7 +3,6 @@
 const path = require('path');
 const { promises: fsPromises } = require('fs');
 const test = require('ava');
-const isPlainObj = require('is-plain-obj');
 const eslint = require('eslint');
 
 const parserOptions = {
@@ -12,6 +11,15 @@ const parserOptions = {
 };
 
 const hasRule = (errors, ruleId) => errors.some((x) => x.ruleId === ruleId);
+
+function isPlainObject(value) {
+  if (Object.prototype.toString.call(value) !== '[object Object]') {
+    return false;
+  }
+
+  const prototype = Object.getPrototypeOf(value);
+  return prototype === null || prototype === Object.prototype;
+}
 
 async function runEslint(string, conf) {
   const linter = new eslint.ESLint({
@@ -26,8 +34,8 @@ async function runEslint(string, conf) {
 test('main', async (t) => {
   const conf = require('..');
 
-  t.true(isPlainObj(conf));
-  t.true(isPlainObj(conf.rules));
+  t.true(isPlainObject(conf));
+  t.true(isPlainObject(conf.rules));
   t.true(Object.keys(conf.rules).every((name) => conf.rules[name] === 'off'));
 
   const rule = 'no-extra-semi';
@@ -49,8 +57,8 @@ test('main', async (t) => {
 test('@typescript-eslint', async (t) => {
   const conf = require('../@typescript-eslint');
 
-  t.true(isPlainObj(conf));
-  t.true(isPlainObj(conf.rules));
+  t.true(isPlainObject(conf));
+  t.true(isPlainObject(conf.rules));
   t.true(Object.keys(conf.rules).every((name) => conf.rules[name] === 'off'));
 
   const rule = '@typescript-eslint/no-extra-non-null-assertion';
@@ -73,8 +81,8 @@ test('@typescript-eslint', async (t) => {
 test('ava', async (t) => {
   const conf = require('../ava');
 
-  t.true(isPlainObj(conf));
-  t.true(isPlainObj(conf.rules));
+  t.true(isPlainObject(conf));
+  t.true(isPlainObject(conf.rules));
   t.true(Object.keys(conf.rules).every((name) => conf.rules[name] === 'off'));
 
   const rule = 'ava/no-incorrect-deep-equal';
@@ -96,8 +104,8 @@ test('ava', async (t) => {
 test('@babel', async (t) => {
   const conf = require('../@babel');
 
-  t.true(isPlainObj(conf));
-  t.true(isPlainObj(conf.rules));
+  t.true(isPlainObject(conf));
+  t.true(isPlainObject(conf.rules));
   t.true(Object.keys(conf.rules).every((name) => conf.rules[name] === 'off'));
 
   const rule = '@babel/semi';
@@ -126,8 +134,8 @@ test('@babel', async (t) => {
 test('flowtype', async (t) => {
   const conf = require('../flowtype');
 
-  t.true(isPlainObj(conf));
-  t.true(isPlainObj(conf.rules));
+  t.true(isPlainObject(conf));
+  t.true(isPlainObject(conf.rules));
   t.true(Object.keys(conf.rules).every((name) => conf.rules[name] === 'off'));
 
   const rule = 'flowtype/boolean-style';
@@ -150,8 +158,8 @@ test('flowtype', async (t) => {
 test('import', async (t) => {
   const conf = require('../import');
 
-  t.true(isPlainObj(conf));
-  t.true(isPlainObj(conf.rules));
+  t.true(isPlainObject(conf));
+  t.true(isPlainObject(conf.rules));
   t.true(Object.keys(conf.rules).every((name) => conf.rules[name] === 'off'));
 
   const rule = 'import/newline-after-import';
@@ -179,8 +187,8 @@ test('import', async (t) => {
 test('prettier', async (t) => {
   const conf = require('../prettier');
 
-  t.true(isPlainObj(conf));
-  t.true(isPlainObj(conf.rules));
+  t.true(isPlainObject(conf));
+  t.true(isPlainObject(conf.rules));
   t.true(Object.keys(conf.rules).every((name) => conf.rules[name] === 'off'));
 
   const rule = 'prettier/prettier';
@@ -202,8 +210,8 @@ test('prettier', async (t) => {
 test('react', async (t) => {
   const conf = require('../react');
 
-  t.true(isPlainObj(conf));
-  t.true(isPlainObj(conf.rules));
+  t.true(isPlainObject(conf));
+  t.true(isPlainObject(conf.rules));
   t.true(Object.keys(conf.rules).every((name) => conf.rules[name] === 'off'));
 
   const rule = 'react/self-closing-comp';
@@ -236,8 +244,8 @@ test('react', async (t) => {
 test('unicorn', async (t) => {
   const conf = require('../unicorn');
 
-  t.true(isPlainObj(conf));
-  t.true(isPlainObj(conf.rules));
+  t.true(isPlainObject(conf));
+  t.true(isPlainObject(conf.rules));
   t.true(Object.keys(conf.rules).every((name) => conf.rules[name] === 'off'));
 
   const rule = 'unicorn/escape-case';
@@ -259,8 +267,8 @@ test('unicorn', async (t) => {
 test('vue', async (t) => {
   const conf = require('../vue');
 
-  t.true(isPlainObj(conf));
-  t.true(isPlainObj(conf.rules));
+  t.true(isPlainObject(conf));
+  t.true(isPlainObject(conf.rules));
   t.true(Object.keys(conf.rules).every((name) => conf.rules[name] === 'off'));
 
   const rule = 'vue/attribute-hyphenation';
