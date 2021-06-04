@@ -17,6 +17,8 @@ module.exports = {
     'unicorn/prefer-negative-index': 'off',
     'unicorn/prefer-optional-catch-binding': 'off',
     'unicorn/prefer-type-error': 'off',
+    'unicorn/require-array-join-separator': 'off',
+    'unicorn/require-number-to-fixed-digits-argument': 'off',
     'unicorn/throw-new-error': 'off',
   },
 };
