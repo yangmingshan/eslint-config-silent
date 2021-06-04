@@ -1,3 +1,8 @@
+### Version 0.26.0 (2021-06-04)
+
+- Added: [unicorn/require-array-join-separator].
+- Added: [unicorn/require-number-to-fixed-digits-argument].
+
 ### Version 0.25.0 (2021-04-20)
 
 - Added: [react/jsx-newline].
@@ -165,6 +170,8 @@
 [unicorn/prefer-regexp-test]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-regexp-test.md
 [unicorn/prefer-spread]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-spread.md
 [unicorn/regex-shorthand]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/regex-shorthand.md
+[unicorn/require-array-join-separator]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-array-join-separator.md
+[unicorn/require-number-to-fixed-digits-argument]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-number-to-fixed-digits-argument.md
 [vue/component-definition-name-casing]: https://eslint.vuejs.org/rules/component-definition-name-casing.html
 [vue/no-deprecated-slot-attribute]: https://eslint.vuejs.org/rules/no-deprecated-slot-attribute.html
 [vue/no-deprecated-slot-scope-attribute]: https://eslint.vuejs.org/rules/no-deprecated-slot-scope-attribute.html
