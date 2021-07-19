@@ -7,7 +7,7 @@ const config = {
   ignorePatterns: ['test-lint'],
   extends: [
     'xo',
-    require.resolve('xo/config/plugins'),
+    require.resolve('xo/config/plugins.cjs'),
     'plugin:prettier/recommended',
     'prettier',
   ],
