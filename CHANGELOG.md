@@ -1,3 +1,7 @@
+### Version 0.27.0 (2021-07-19)
+
+- Added: [flowtype/enforce-line-break].
+
 ### Version 0.26.0 (2021-06-04)
 
 - Added: [unicorn/require-array-join-separator].
@@ -155,6 +159,7 @@
 [ava/no-skip-test]: https://github.com/avajs/eslint-plugin-ava/blob/main/docs/rules/no-skip-test.md
 [eslint-plugin-babel]: https://github.com/babel/eslint-plugin-babel
 [eslint-plugin-vue v6.0]: https://github.com/vuejs/eslint-plugin-vue/releases/tag/v6.0.0
+[flowtype/enforce-line-break]: https://github.com/gajus/eslint-plugin-flowtype#enforce-line-break
 [flowtype/object-type-curly-spacing]: https://github.com/gajus/eslint-plugin-flowtype#object-type-curly-spacing
 [flowtype/quotes]: https://github.com/gajus/eslint-plugin-flowtype#quotes
 [function-call-argument-newline]: https://eslint.org/docs/rules/function-call-argument-newline
