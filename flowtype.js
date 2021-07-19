@@ -7,6 +7,7 @@ module.exports = {
     'flowtype/arrow-parens': 'off',
     'flowtype/boolean-style': 'off',
     'flowtype/delimiter-dangle': 'off',
+    'flowtype/enforce-line-break': 'off',
     'flowtype/generic-spacing': 'off',
     'flowtype/object-type-curly-spacing': 'off',
     'flowtype/object-type-delimiter': 'off',
