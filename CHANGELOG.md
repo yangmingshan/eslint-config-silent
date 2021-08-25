@@ -1,3 +1,9 @@
+### Version 0.28.0 (2021-08-25)
+
+- Added: [@typescript-eslint/prefer-return-this-type].
+- Added: [unicorn/no-useless-length-check].
+- Added: [unicorn/no-useless-spread].
+
 ### Version 0.27.0 (2021-07-19)
 
 - Added: [flowtype/enforce-line-break].
@@ -149,6 +155,7 @@
 [@typescript-eslint/object-curly-spacing]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/object-curly-spacing.md
 [@typescript-eslint/prefer-reduce-type-parameter]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md
 [@typescript-eslint/prefer-regexp-exec]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-regexp-exec.md
+[@typescript-eslint/prefer-return-this-type]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-return-this-type.md
 [@typescript-eslint/promise-function-async]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/promise-function-async.md
 [@typescript-eslint/sort-type-union-intersection-members]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/sort-type-union-intersection-members.md
 [@typescript-eslint/space-before-function-paren]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/space-before-function-paren.md
@@ -168,6 +175,8 @@
 [react/jsx-newline]: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-newline.md
 [unicorn/empty-brace-spaces]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/empty-brace-spaces.md
 [unicorn/no-lonely-if]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-lonely-if.md
+[unicorn/no-useless-length-check]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-length-check.md
+[unicorn/no-useless-spread]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-spread.md
 [unicorn/no-useless-undefined]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-undefined.md
 [unicorn/prefer-date-now]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-date-now.md
 [unicorn/prefer-negative-index]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-negative-index.md
