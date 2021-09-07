@@ -1,3 +1,8 @@
+### Version 0.29.0 (2021-09-07)
+
+- Added: [@typescript-eslint/no-meaningless-void-operator].
+- Added: [@typescript-eslint/padding-line-between-statements].
+
 ### Version 0.28.0 (2021-08-25)
 
 - Added: [@typescript-eslint/prefer-return-this-type].
@@ -149,10 +154,12 @@
 [@typescript-eslint/lines-between-class-members]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/lines-between-class-members.md
 [@typescript-eslint/no-extra-non-null-assertion]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-non-null-assertion.md
 [@typescript-eslint/no-extra-semi]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-semi.md
+[@typescript-eslint/no-meaningless-void-operator]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-meaningless-void-operator.md
 [@typescript-eslint/no-unnecessary-boolean-literal-compare]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-boolean-literal-compare.md
 [@typescript-eslint/no-unnecessary-type-constraint]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-type-constraint.md
 [@typescript-eslint/non-nullable-type-assertion-style]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/non-nullable-type-assertion-style.md
 [@typescript-eslint/object-curly-spacing]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/object-curly-spacing.md
+[@typescript-eslint/padding-line-between-statements]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/padding-line-between-statements.md
 [@typescript-eslint/prefer-reduce-type-parameter]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md
 [@typescript-eslint/prefer-regexp-exec]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-regexp-exec.md
 [@typescript-eslint/prefer-return-this-type]: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-return-this-type.md
