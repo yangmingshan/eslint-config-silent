@@ -10,6 +10,7 @@ module.exports = {
     'unicorn/no-hex-escape': 'off',
     'unicorn/no-lonely-if': 'off',
     'unicorn/no-new-buffer': 'off',
+    'unicorn/no-useless-fallback-in-spread': 'off',
     'unicorn/no-useless-length-check': 'off',
     'unicorn/no-useless-spread': 'off',
     'unicorn/no-useless-undefined': 'off',
