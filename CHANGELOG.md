@@ -1,3 +1,7 @@
+### Version 0.30.0 (2021-09-12)
+
+- Added: [unicorn/no-useless-fallback-in-spread].
+
 ### Version 0.29.0 (2021-09-07)
 
 - Added: [@typescript-eslint/no-meaningless-void-operator].
@@ -182,6 +186,7 @@
 [react/jsx-newline]: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-newline.md
 [unicorn/empty-brace-spaces]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/empty-brace-spaces.md
 [unicorn/no-lonely-if]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-lonely-if.md
+[unicorn/no-useless-fallback-in-spread]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-fallback-in-spread.md
 [unicorn/no-useless-length-check]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-length-check.md
 [unicorn/no-useless-spread]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-spread.md
 [unicorn/no-useless-undefined]: https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-undefined.md
