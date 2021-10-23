@@ -131,30 +131,6 @@ test('@babel', async (t) => {
   t.false(hasRule(await runEslint(code, config), rule));
 });
 
-test('flowtype', async (t) => {
-  const conf = require('../flowtype');
-
-  t.true(isPlainObject(conf));
-  t.true(isPlainObject(conf.rules));
-  t.true(Object.keys(conf.rules).every((name) => conf.rules[name] === 'off'));
-
-  const rule = 'flowtype/boolean-style';
-  const code = await fsPromises.readFile(
-    path.resolve(__dirname, '../test-lint/flowtype.js'),
-    { encoding: 'utf8' }
-  );
-  const config = {
-    parser: require.resolve('@babel/eslint-parser'),
-    parserOptions,
-    extends: ['plugin:flowtype/recommended'],
-  };
-
-  t.true(hasRule(await runEslint(code, config), rule));
-
-  config.extends.push(path.resolve(__dirname, '../flowtype.js'));
-  t.false(hasRule(await runEslint(code, config), rule));
-});
-
 test('import', async (t) => {
   const conf = require('../import');
 

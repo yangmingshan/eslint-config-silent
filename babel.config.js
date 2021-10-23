@@ -1,5 +1,3 @@
 'use strict';
 
-module.exports = {
-  presets: ['@babel/preset-flow'],
-};
+module.exports = {};

@@ -57,7 +57,6 @@ A few ESLint plugins are supported as well:
 - [@babel/eslint-plugin](https://github.com/babel/babel/tree/main/eslint/babel-eslint-plugin)
 - [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint)
 - [eslint-plugin-ava](https://github.com/avajs/eslint-plugin-ava)
-- [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype)
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 - [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
 - [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
@@ -83,7 +82,6 @@ if (process.env.NODE_ENV !== 'production') {
     'silent/@babel',
     'silent/@typescript-eslint',
     'silent/ava',
-    'silent/flowtype',
     'silent/import',
     'silent/prettier',
     'silent/react',
