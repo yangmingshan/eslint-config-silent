@@ -22,6 +22,7 @@ module.exports = {
     'unicorn/prefer-type-error': 'off',
     'unicorn/require-array-join-separator': 'off',
     'unicorn/require-number-to-fixed-digits-argument': 'off',
+    'unicorn/template-indent': 'off',
     'unicorn/throw-new-error': 'off',
   },
 };
